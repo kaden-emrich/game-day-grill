@@ -10,6 +10,10 @@ body {
     min-height: 100vh;
 }
 
+li:hover{
+    background-color: green !important;
+}
+
 main.home-main {
     margin: 0;
     padding: 3vw 0;
