@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(196, 196, 196);
+}
+
+.bigger-li{
+    font-size: 18px;
+    font-weight: bold;
+}
