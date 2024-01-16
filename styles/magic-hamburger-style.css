@@ -1,0 +1,113 @@
+:root {
+    --nav-backdrop: blur(3px) brightness(50%);
+}
+
+#magic-hamburger-nav {
+    position: fixed;
+    top: 0;
+    left: -30vw;
+    z-index: 100;
+    width: 200vw;
+    /* animation: nav-slide-out 1s ease 0s 1 normal forwards; */
+}
+#magic-hamburger-nav ul {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border-left: 10px;
+    list-style-type: none;
+    border-right: 2px solid black;
+}
+#magic-hamburger-nav ul li {
+    padding: 10px;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+#magic-burger {
+    display: inline-block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    /* border: 1px solid black; */
+}
+#magic-burger .h-part {
+    display: none;
+    height: 25%;
+    width: 100%;
+    margin-bottom: 11%;
+    border-radius: 15% / 50%;
+    font-size: 0;
+    box-shadow: 2px 2px 2px black;
+}
+#magic-burger .h-bun {
+    display: block;
+    background-color: #ddcc99;
+}
+#magic-burger .h-patty {
+    display: block;
+    background-color: #552200;
+}
+
+.nav-opened {
+    animation: nav-slide-out 1s ease 0s 1 normal forwards;
+}
+.nav-opened ul {
+    animation: nav-shadow-show 1s linear 0s 1 normal both;
+}
+
+.nav-closed {
+    animation: nav-slide-in 1s ease 0s 1 normal forwards;
+}
+.nav-closed ul {
+    animation: nav-shadow-hide 1s linear 0s 1 normal both;
+}
+
+@keyframes nav-shadow-show {
+    from {
+        box-shadow: 0px 0 0px black;
+    }
+    to {
+        box-shadow: 10px 0 10px black;
+    }
+}
+@keyframes nav-shadow-hide {
+    from {
+        box-shadow: 10px 0 10px black;
+    }
+    to {
+        box-shadow: 0px 0 0px black;
+    }
+}
+
+@keyframes nav-slide-out {
+    from {
+        left: -30vw;
+        backdrop-filter: none;
+    }
+    
+    to {
+        left: 0;
+        backdrop-filter: var(--nav-backdrop);
+    }
+}
+
+@keyframes nav-slide-in {
+    from {
+        left: 0;
+        backdrop-filter: var(--nav-backdrop);
+    }
+
+    to {
+        left: -30vw;
+        backdrop-filter: none;
+    }
+}

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/magic-hamburger-style.css">
     <title>Game Day Grill</title>
     <style>
 
@@ -10,7 +11,6 @@
             margin: 0;
             padding: 0;
             min-height: 100vh;
-            filter: brightness(80%);
         }
 
         main.home-main {
@@ -25,7 +25,7 @@
             box-sizing: border-box;
             margin: 0;
             width: 100%;
-            font-size: 4vw;
+            font-size: 5vw;
             text-align: center;
             font-family: fantasy;
             background-color: #007B2F;
@@ -47,6 +47,22 @@
     </style>
 </head>
 <body>
+
+    <nav id="magic-hamburger-nav">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Menu</a></li>
+            <li><a>Order</a></li>
+            <li><a>Contact us</a></li>
+            <li><a>About us</a></li>
+        </ul>
+        <div id="magic-burger">
+            <div class="h-part h-bun"></div>
+            <div class="h-part h-patty"></div>
+            <div class="h-part h-bun"></div>
+        </div>
+    </nav>
+
     <div class="endzone">
         <h1 class="endzone-text">GAME DAY GRILL</h1>
     </div>
@@ -56,5 +72,9 @@
     <div class="endzone">
         <h1 class="endzone-text upsidedown">GAME DAY GRILL</h1>
     </div>
+
 </body>
+
+<script src="scripts/magic-hamburger.js"></script>
+
 </html>
