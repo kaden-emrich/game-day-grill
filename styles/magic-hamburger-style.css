@@ -1,5 +1,10 @@
 :root {
     --nav-backdrop: blur(3px) brightness(50%);
+    --nav-background: gray;
+    --nav-border: 2px solid black;
+
+    --nav-block-background: darkgray;
+    --nav-block-border: 1px solid black;
 }
 
 #magic-hamburger-nav {
@@ -17,16 +22,17 @@
     height: 100vh;
     padding: 0;
     margin: 0;
-    background-color: white;
+    background-color: var(--nav-background);
     border-left: 10px;
     list-style-type: none;
-    border-right: 2px solid black;
+    border-right: var(--nav-border);
 }
 #magic-hamburger-nav ul li {
     padding: 10px;
     list-style-type: none;
-    border-bottom: 1px solid black;
+    border-bottom: var(--nav-block-border);
     font-size: 20px;
+    background-color: var(--nav-block-background);
     /* text-align: center; */
 }
 

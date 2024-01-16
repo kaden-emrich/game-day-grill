@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+main.home-main {
+    margin: 0;
+    padding: 3vw 0;
+    min-height: 90vh;
+    width: 100%;
+    background-image: url(/images/football-field-part.png);
+    background-size: 100%;
+}
+
+div.endzone {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    font-size: 5vw;
+    text-align: center;
+    font-family: fantasy;
+    background-color: #007B2F;
+    border: 1vw solid #d3d3d3;
+    -webkit-text-stroke: 0.3vw #d3d3d3;
+    color: red;
+}
+div.endzone h1 {
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.upsidedown {
+    transform: rotate(180deg);
+}
+
+div.field-box {
+    width: 80vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #006010;
+    border: 5px solid #005010;
+    box-shadow: 5px 5px 5px black;
+}
