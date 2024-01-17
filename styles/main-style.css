@@ -10,6 +10,11 @@ body {
     min-height: 100vh;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 li:hover{
     background-color: green !important;
 }
@@ -52,4 +57,25 @@ div.field-box {
     background-color: #006010;
     border: 5px solid #005010;
     box-shadow: 5px 5px 5px black;
+}
+
+div.about-us-box {
+    width: 80vw;
+    margin: auto;
+    padding: 10px;
+    background-color: #00a50b;
+    border: 5px solid #005711;
+    box-shadow: 5px 5px 5px black;
+}
+
+div.about-us-box h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.about-us-box p {
+    font-size: 20px;
+    font-weight: bold;
 }
