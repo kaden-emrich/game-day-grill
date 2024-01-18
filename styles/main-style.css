@@ -59,9 +59,11 @@ div.general-text-box {
     width: 80vw;
     margin: auto;
     padding: 10px;
-    background-color: #00a50b;
-    border: 5px solid #005711;
-    box-shadow: 5px 5px 5px black;
+    /* background-color: #00a50b;
+    border: 5px solid #005711; */
+    backdrop-filter: brightness(40%) blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
 }
 
 div.general-text-box h1 {
@@ -74,6 +76,7 @@ div.general-text-box h1 {
 div.general-text-box p {
     font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 
 form{
