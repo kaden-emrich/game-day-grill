@@ -78,17 +78,18 @@ div.general-text-box p {
 }
 
 div.semitransparent-box {
-    width: 80vw;
+    width: 70vw;
     margin: auto;
-    padding: 10px;
+    padding: 50px;
     /* background-color: #00a50b;
     border: 5px solid #005711; */
-    backdrop-filter: brightness(40%) blur(5px);
-    border-radius: 10px;
-    box-shadow: 0 0 5px black;
+    background-color: rgba(200, 200, 200, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black, 0px 0px 10px black;
 }
 div.semitransparent-box h1 {
-    color: white;
+    color: black;
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
@@ -96,9 +97,21 @@ div.semitransparent-box h1 {
 div.semitransparent-box p {
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 form {
     border: 3px solid black;
+}
+
+@media screen and (min-width: 551px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .desktop {
+        display: none;
+    }
 }
