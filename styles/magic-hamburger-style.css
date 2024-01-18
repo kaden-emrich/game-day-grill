@@ -27,13 +27,22 @@
     list-style-type: none;
     border-right: var(--nav-border);
 }
-#magic-hamburger-nav ul li {
+#magic-hamburger-nav ul li a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
     padding: 10px;
     list-style-type: none;
     border-bottom: var(--nav-block-border);
     font-size: 20px;
     background-color: var(--nav-block-background);
+    text-decoration: none;
+    color: black;
     /* text-align: center; */
+}
+
+#magic-hamburger-nav ul li a:hover {
+    background-color: green !important;
 }
 
 #magic-burger {
