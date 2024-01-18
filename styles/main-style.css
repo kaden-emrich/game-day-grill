@@ -33,18 +33,21 @@ main.home-main {
     margin: 0;
     padding: 0px 0;
     width: 100%;
-    /* font-size: 4vw; */
     text-align: center;
     background-color: #990000;
     border: 1vw solid #d3d3d3;
 }
 .endzone h1 {
+    max-height: 20vw;
     margin: 0;
     padding: 0;
     font-size: 20vw;
+    line-height: 1;
+    white-space: nowrap;
     text-align: center;
     color: #d3d3d3;
     font-family: "OhioState", sans-serif;
+    font-weight: 0;
 }
 
 .upsidedown {
