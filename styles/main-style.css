@@ -55,7 +55,7 @@ div.field-box {
     box-shadow: 5px 5px 5px black;
 }
 
-div.about-us-box {
+div.general-text-box {
     width: 80vw;
     margin: auto;
     padding: 10px;
@@ -64,14 +64,14 @@ div.about-us-box {
     box-shadow: 5px 5px 5px black;
 }
 
-div.about-us-box h1 {
+div.general-text-box h1 {
     color: white;
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-div.about-us-box p {
+div.general-text-box p {
     font-size: 20px;
     font-weight: bold;
 }
