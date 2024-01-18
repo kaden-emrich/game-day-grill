@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "OhioState";
+    src: url("/fonts/ohio-state/ohio-state/Ohio-Collegiate.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@ body {
     min-height: 100vh;
 }
 
-h1{
+h1 {
     font-size: 2em;
 }
 
@@ -19,27 +24,31 @@ main.home-main {
     padding: 3vw 0;
     min-height: 90vh;
     width: 100%;
-    background-image: url(/images/football-field-part.png);
+    background-image: url(../images/football-field-part.png);
     background-size: 100%;
 }
 
 .endzone {
     box-sizing: border-box;
     margin: 0;
-    padding: 30px 0;
+    padding: 0px 0;
     width: 100%;
-    font-size: 4vw;
     text-align: center;
-    font-family: fantasy;
-    background-color: #007B2F;
+    background-color: #990000;
     border: 1vw solid #d3d3d3;
-    -webkit-text-stroke: 0.3vw #d3d3d3;
-    color: red;
+    text-shadow: 0 0 10px black;
 }
 .endzone h1 {
-    font-weight: 900;
+    max-height: 20vw;
     margin: 0;
     padding: 0;
+    font-size: 20vw;
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center;
+    color: #d3d3d3;
+    font-family: "OhioState", sans-serif;
+    font-weight: 0;
 }
 
 .upsidedown {
