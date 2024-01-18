@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "OhioState";
+    src: url("/fonts/ohio-state/ohio-state/Ohio-Collegiate.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@ body {
     min-height: 100vh;
 }
 
-h1{
+h1 {
     font-size: 2em;
 }
 
@@ -19,27 +24,31 @@ main.home-main {
     padding: 3vw 0;
     min-height: 90vh;
     width: 100%;
-    background-image: url(/images/football-field-part.png);
+    background-image: url(../images/football-field-part.png);
     background-size: 100%;
 }
 
 .endzone {
     box-sizing: border-box;
     margin: 0;
-    padding: 30px 0;
+    padding: 0px 0;
     width: 100%;
-    font-size: 4vw;
     text-align: center;
-    font-family: fantasy;
-    background-color: #007B2F;
+    background-color: #990000;
     border: 1vw solid #d3d3d3;
-    -webkit-text-stroke: 0.3vw #d3d3d3;
-    color: red;
+    text-shadow: 0 0 10px black;
 }
 .endzone h1 {
-    font-weight: 900;
+    max-height: 20vw;
     margin: 0;
     padding: 0;
+    font-size: 20vw;
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center;
+    color: #d3d3d3;
+    font-family: "OhioState", sans-serif;
+    font-weight: 0;
 }
 
 .upsidedown {
@@ -77,18 +86,57 @@ div.general-text-box p {
     color: white;
 }
 
+/* Form Styling */
+.hiring-form{
+    border: 3px solid black;
+    width: 65%;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background-color: white;
+    margin:auto;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.hiring-form label{
+    margin-left: 10px;
+}
+
+.hiring-form input{
+    background-color: gainsboro;
+    margin-bottom: 10px;
+}
+
+.hiring-form button {
+    margin-left: 43%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.application-title {
+    text-align: center;
+}
+
+#coverLetter
+{
+    margin-bottom: 20px;
+}
+
 div.semitransparent-box {
-    width: 80vw;
+    width: 70vw;
     margin: auto;
-    padding: 10px;
+    padding: 50px;
     /* background-color: #00a50b;
     border: 5px solid #005711; */
-    backdrop-filter: brightness(40%) blur(5px);
-    border-radius: 10px;
-    box-shadow: 0 0 5px black;
+    background-color: rgba(200, 200, 200, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black, 0px 0px 10px black;
 }
 div.semitransparent-box h1 {
-    color: white;
+    color: black;
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
@@ -96,11 +144,58 @@ div.semitransparent-box h1 {
 div.semitransparent-box p {
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
-form {
+/* Form Styling */
+.hiring-form{
     border: 3px solid black;
+    width: 65%;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background-color: white;
+    margin:auto;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.hiring-form label{
+    margin-left: 10px;
+}
+
+.hiring-form input{
+    background-color: gainsboro;
+    margin-bottom: 10px;
+}
+
+.hiring-form button{
+    margin-left: 43%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.application-title {
+    text-align: center;
+}
+
+#coverLetter
+{
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 551px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .desktop {
+        display: none;
+    }
+
 }
 
 /* Contact Page Styling */
