@@ -102,3 +102,40 @@ div.semitransparent-box p {
 form {
     border: 3px solid black;
 }
+
+/* Contact Page Styling */
+
+/*Heading Design*/
+.contact-page-header-design {
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #000;
+}
+/* Main  Design*/
+/*Border Design*/
+.contact-page-box {
+    margin: auto;
+    color: #000;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-page-box a {
+    color: #000;
+}
+
+/*Styling for Form*/
+#contact-page-form {
+
+}
+
+
+
+
