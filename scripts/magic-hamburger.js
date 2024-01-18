@@ -1,17 +1,21 @@
 var burgerButton = document.getElementById('magic-burger');
-var navDiv = document.getElementById('magic-hamburger-nav');
+var navDiv = document.getElementById('navlist-wrapper');
 
 var navIsExpanded = false;
 
 function toggleNavbar() {
     if(navIsExpanded) {
-        navDiv.classList.add('nav-closed');
         navDiv.classList.remove('nav-opened');
+        burgerButton.classList.remove('burger-slide-right');
+        navDiv.classList.add('nav-closed');
+        burgerButton.classList.add('burger-slide-left');
         navIsExpanded = false;
     }
     else {
-        navDiv.classList.add('nav-opened');
         navDiv.classList.remove('nav-closed');
+        burgerButton.classList.remove('burger-slide-left');
+        navDiv.classList.add('nav-opened');
+        burgerButton.classList.add('burger-slide-right');
         navIsExpanded = true;
     }
 }
