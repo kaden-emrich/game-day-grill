@@ -99,6 +99,9 @@ div.semitransparent-box p {
     font-weight: bold;
     color: black;
 }
+div.menu-header{
+    background-color: #d3d3d3;
+}
 
 form {
     border: 3px solid black;
