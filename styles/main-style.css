@@ -65,20 +65,40 @@ div.general-text-box {
     border-radius: 10px;
     box-shadow: 0 0 5px black;
 }
-
 div.general-text-box h1 {
     color: white;
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
 }
-
 div.general-text-box p {
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
 
-form{
+div.semitransparent-box {
+    width: 80vw;
+    margin: auto;
+    padding: 10px;
+    /* background-color: #00a50b;
+    border: 5px solid #005711; */
+    backdrop-filter: brightness(40%) blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+div.semitransparent-box h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.semitransparent-box p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+form {
     border: 3px solid black;
 }
