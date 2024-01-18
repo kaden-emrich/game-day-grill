@@ -24,7 +24,7 @@ main.home-main {
     padding: 3vw 0;
     min-height: 90vh;
     width: 100%;
-    background-image: url(/images/football-field-part.png);
+    background-image: url(../images/football-field-part.png);
     background-size: 100%;
 }
 
@@ -36,6 +36,7 @@ main.home-main {
     text-align: center;
     background-color: #990000;
     border: 1vw solid #d3d3d3;
+    text-shadow: 0 0 10px black;
 }
 .endzone h1 {
     max-height: 20vw;

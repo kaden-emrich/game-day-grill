@@ -1,11 +1,19 @@
+@font-face {
+    font-family: "OhioState";
+    src: url("../fonts/ohio-state/ohio-state/Ohio-Collegiate.ttf");
+}
+
 :root {
     --nav-backdrop: blur(3px) brightness(50%);
-    --nav-background: gray;
+    --nav-background: #00441a;
     --nav-border: 2px solid black;
 
     --nav-width: 300px;
-    --nav-block-background: darkgray;
-    --nav-block-border: 1px solid black;
+    --nav-block-background: #007B2F;
+    --nav-block-border: 2px solid #d3d3d3;
+    --nav-block-hover-background: #990000;
+
+    --nav-font-color: #d3d3d3;
 }
 
 #magic-hamburger-nav {
@@ -42,17 +50,21 @@
     display: block;
     box-sizing: border-box;
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
+    padding-left: 10px;
     list-style-type: none;
     border-bottom: var(--nav-block-border);
-    font-size: 20px;
+    font-size: 40px;
     background-color: var(--nav-block-background);
     text-decoration: none;
-    color: black;
+    color: var(--nav-font-color);
+    text-shadow: 0 0 10px black;
+    box-shadow: 0 2px 5px black;
+    font-family: "OhioState";
     /* text-align: center; */
 }
 #navlist-wrapper ul li a:hover {
-    background-color: green !important;
+    background-color: #990000 !important;
 }
 
 #hamburger-wrapper {
