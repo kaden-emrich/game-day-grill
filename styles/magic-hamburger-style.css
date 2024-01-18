@@ -1,6 +1,6 @@
 @font-face {
     font-family: "OhioState";
-    src: url("/fonts/ohio-state/ohio-state/Ohio-Collegiate.ttf");
+    src: url("../fonts/ohio-state/ohio-state/Ohio-Collegiate.ttf");
 }
 
 :root {
