@@ -202,13 +202,18 @@ div.semitransparent-box p {
 /*Heading Design*/
 .contact-page-header-design {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 25px;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size: 23px;
     color: #000;
 }
+
+.contact-page-box-bottom{
+    margin-bottom: 65px;
+}
+
 /* Main  Design*/
 /*Border Design*/
 .contact-page-box {
@@ -225,11 +230,4 @@ div.semitransparent-box p {
     color: #000;
 }
 
-/*Styling for Form*/
-#contact-page-form {
-
-}
-
-
-
-
+/* Form Styling */
