@@ -19,6 +19,10 @@ h1 {
     font-size: 2em;
 }
 
+.w70 {
+    width: 70vw;
+}
+
 main.home-main {
     margin: 0;
     padding: 3vw 0;
@@ -86,35 +90,6 @@ div.general-text-box p {
     color: white;
 }
 
-/* Form Styling */
-.hiring-form{
-    border: 3px solid black;
-    width: 65%;
-    font-size: 1.5em;
-    border-radius: 20px;
-    background-color: white;
-    margin:auto;
-    margin-bottom: 50px;
-    padding: 20px;
-}
-
-.hiring-form label{
-    margin-left: 10px;
-}
-
-.hiring-form input{
-    background-color: gainsboro;
-    margin-bottom: 10px;
-}
-
-.hiring-form button {
-    margin-left: 43%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .application-title {
     text-align: center;
 }
@@ -124,7 +99,7 @@ div.general-text-box p {
 }
 
 div.semitransparent-box {
-    width: 70vw;
+    /* width: 70vw; */
     margin: auto;
     padding: 50px;
     /* background-color: #00a50b;
@@ -151,11 +126,11 @@ div.menu-header{
 
 /* Form Styling */
 .hiring-form{
-    border: 3px solid black;
-    width: 65%;
+    /* border: 3px solid black; */
+    /* width: 65%; */
     font-size: 1.5em;
-    border-radius: 20px;
-    background-color: white;
+    /* border-radius: 20px; */
+    /* background-color: white; */
     margin:auto;
     margin-bottom: 50px;
     padding: 20px;
