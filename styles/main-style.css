@@ -100,7 +100,7 @@ div.general-text-box p {
 
 div.semitransparent-box {
     /* width: 70vw; */
-    margin: auto;
+    margin: 40px auto;
     padding: 50px;
     /* background-color: #00a50b;
     border: 5px solid #005711; */
@@ -110,8 +110,7 @@ div.semitransparent-box {
     box-shadow: 5px 5px 10px black, 0px 0px 10px black;
 }
 
-.index-intro
-{
+.index-intro {
     text-align: center;
 }
 
