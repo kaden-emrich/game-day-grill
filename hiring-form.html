@@ -45,33 +45,51 @@
     <main class="home-main">
 
         <div class="container mt-5">
-            <form>
+            <form class="hiring-form" action="hiring-form-success.html">
+
+              <h1 class="application-title">G.D.G Job Application</h1>
+
               <div class="form-group">
-                <label for="fullName">Full Name</label>
-                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="phone" class="form-control" id="phone" placeholder="Enter your phone number in a xxx-xxx-xxxx format" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
               </div>
 
               <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="city">Location (City)</label>
+                <input type="text" class="form-control" id="city" placeholder="Enter a city you live in" required>
               </div>
 
               <div class="form-group">
                 <label for="resume">Resume</label>
-                <input type="file" class="form-control-file" id="resume">
+                <input type="file" class="form-control" id="resume" placeholder="Insert Resume" required>
               </div>
 
               <div class="form-group">
                 <label for="coverLetter">Cover Letter</label>
-                <textarea class="form-control" id="coverLetter" rows="4" placeholder="Write your cover letter"></textarea>
+                <textarea class="form-control" id="coverLetter" rows="4" placeholder="Write your cover letter" required></textarea>
               </div>
 
               <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="termsCheck">
+                <input type="checkbox" class="form-check-input" id="termsCheck" required>
                 <label class="form-check-label" for="termsCheck">I agree to the terms and conditions</label>
               </div>
 
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary btn-lg">Apply</button>
             </form>
           </div>
 

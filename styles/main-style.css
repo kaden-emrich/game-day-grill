@@ -86,6 +86,43 @@ div.general-text-box p {
     color: white;
 }
 
+/* Form Styling */
+.hiring-form{
+    border: 3px solid black;
+    width: 65%;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background-color: white;
+    margin:auto;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.hiring-form label{
+    margin-left: 10px;
+}
+
+.hiring-form input{
+    background-color: gainsboro;
+    margin-bottom: 10px;
+}
+
+.hiring-form button {
+    margin-left: 43%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.application-title {
+    text-align: center;
+}
+
+#coverLetter {
+    margin-bottom: 20px;
+}
+
 div.semitransparent-box {
     width: 70vw;
     margin: auto;
@@ -112,8 +149,42 @@ div.menu-header{
     background-color: #d3d3d3;
 }
 
-form {
+/* Form Styling */
+.hiring-form{
     border: 3px solid black;
+    width: 65%;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background-color: white;
+    margin:auto;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.hiring-form label{
+    margin-left: 10px;
+}
+
+.hiring-form input{
+    background-color: gainsboro;
+    margin-bottom: 10px;
+}
+
+.hiring-form button{
+    margin-left: 43%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.application-title {
+    text-align: center;
+}
+
+#coverLetter
+{
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 551px) {
@@ -126,4 +197,42 @@ form {
     .desktop {
         display: none;
     }
+
 }
+
+/* Contact Page Styling */
+
+/*Heading Design*/
+.contact-page-header-design {
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #000;
+}
+/* Main  Design*/
+/*Border Design*/
+.contact-page-box {
+    margin: auto;
+    color: #000;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-page-box a {
+    color: #000;
+}
+
+/*Styling for Form*/
+#contact-page-form {
+
+}
+
+
+
+
