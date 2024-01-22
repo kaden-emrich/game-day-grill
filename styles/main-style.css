@@ -109,6 +109,12 @@ div.semitransparent-box {
     border-radius: 20px;
     box-shadow: 5px 5px 10px black, 0px 0px 10px black;
 }
+
+.index-intro
+{
+    text-align: center;
+}
+
 div.semitransparent-box h1 {
     color: black;
     font-size: 35px;
@@ -183,10 +189,6 @@ div.semitransparent-box p {
     font-weight: bold;
     font-size: 23px;
     color: #000;
-}
-
-.contact-page-box-bottom{
-    margin-bottom: 65px;
 }
 
 /* Main  Design*/
