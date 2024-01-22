@@ -72,10 +72,12 @@
     position: relative;
     padding: 1px;
     background-color: #d3d3d3;
+    min-height: 62px;
 }
 
 #magic-burger {
-    position: relative;
+    position: fixed;
+    /* top: 0; */
     z-index: 100;
     width: 40px;
     height: 40px;
