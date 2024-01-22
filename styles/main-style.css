@@ -210,4 +210,6 @@ div.menu-header{
     color: #000;
 }
 
-/* Form Styling */
+.menu-section article { 
+    margin: 50px auto;
+}
