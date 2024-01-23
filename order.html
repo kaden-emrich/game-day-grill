@@ -196,37 +196,33 @@
 
                     <li class="list-group-item">
                         <label for="fname" class="form-label">CARDHOLDER FIRST NAME</label>
-                        <input type="text" id="fname" name="fname" class="form-text">
+                        <input type="text" id="fname" name="fname" class="form-text" required>
                     </li>
 
                     <li class="list-group-item">
                         <label for="lname" class="form-label">CARDHOLDER LAST NAME</label>
-                        <input type="text" id="lname" name="lname" class="form-text">
+                        <input type="text" id="lname" name="lname" class="form-text" required>
                     </li>
 
                     <li class="list-group-item">
                         <label for="cardnum" class="form-label">CARD NUMBER</label>
-                        <input type="text" id="cardnum" name="cardnum" class="form-text">
+                        <input type="text" id="cardnum" name="cardnum" placeholder="XXXXXXXXXXXXXXXX" maxlength="16" class="form-text" required>
                     </li>
 
                     <li class="list-group-item">
                         <label for="expdate" class="form-label">EXPIRATION DATE</label>
-                        <input type="text" id="expdate" name="expdate" class="form-text">
+                        <input type="date" id="exprpdate" name="expdate" min="2024-01-01" max="2031-01-01" class="form-text" required>
                     </li>
 
                     <li class="list-group-item">
                         <label for="cvc" class="form-label">SECURITY CODE</label>
-                        <input type="text" id="cvc" name="cvc" class="form-text">
+                        <input type="text" id="cvc" name="cvc" placeholder="XXX" maxlength="3" class="form-text" required>
                     </li>
 
                     <li class="list-group-item">
                         <label for="code" class="form-label">POSTAL CODE</label>
-                        <input type="text" id="code" name="code" class="form-text">
-                    </li>
-
-                </ul>
-                
-            </div>
+                        <input type="text" id="pstcode" name="code" placeholder="XXXXXXXXXX" maxlength="10" class="form-text" required>
+                    </li>    
             
             <button type="submit" onclick="window.location.href='order-form-success.html'" class="btn btn-primary btn-dark ">Complete Order</button>
         </div>
