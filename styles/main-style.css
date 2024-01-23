@@ -187,6 +187,51 @@ div.menu-header{
     margin-bottom: 20px;
 }
 
+/* Stlyes for Contact Form Page*/
+.contact-page-form {
+    text-align: center;
+}
+.contact-page-form-grid {
+    margin-top: 1.5%;
+    padding: 2%;
+    text-align: center;
+}
+
+/* Style rules for contact form page elements. */
+fieldset, input, select {
+    margin-bottom: 2%;
+}
+
+.fieldset-styling {
+    text-align: left;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+    text-shadow: 1px 1px;
+}
+
+.input-label-design {
+    display: block;
+}
+
+#contact-page-form-submit {
+   text-align: center;
+   padding: 3%;
+}
+
+#submit {
+    font-weight: bold;
+    padding: 1%;
+}
+
+.form-control {
+   margin-bottom: 15px;
+}
+
+
+
 @media screen and (min-width: 551px) {
     .mobile {
         display: none;
