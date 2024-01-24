@@ -217,8 +217,6 @@ fieldset legend {
    margin-bottom: 15px;
 }
 
-
-
 /* Desktop Viewport */
 @media screen and (min-width: 601px) {
     .mobile {
