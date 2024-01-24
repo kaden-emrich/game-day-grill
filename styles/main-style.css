@@ -138,6 +138,8 @@ div.semitransparent-box p {
 
 div.menu-header{
     background-color: #d3d3d3;
+    text-align: center;
+    border-bottom: 1vw solid #d3d3d3;
 }
 
 /* Form Styling */
@@ -282,6 +284,13 @@ fieldset, input, select {
     }
     div.semitransparent-box p {
         font-size: 16px;
+    }
+
+    div.mobile-quicknav a {
+        display: block;
+        border: 0.5vw solid #d3d3d3;
+        border-radius: 0;
+        background-color: #007B2F !important;
     }
 }
 
