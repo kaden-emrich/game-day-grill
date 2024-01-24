@@ -15,10 +15,6 @@ body {
     min-height: 100vh;
 }
 
-h1 {
-    font-size: 2em;
-}
-
 hr {
     margin: 1rem auto;
     padding: 5px;
@@ -27,6 +23,10 @@ hr {
     border-radius: 5px;
     backdrop-filter: brightness(40%);
     box-shadow: 0px 0px 5px black, 2px 2px 2px black;
+}
+
+a {
+    color: #333;
 }
 
 hr.thick-rule {
@@ -117,36 +117,29 @@ div.general-text-box p {
     margin-bottom: 20px;
 }
 
-div.semitransparent-box {
-    /* width: 70vw; */
-    margin: 40px auto;
-    padding: 50px;
-    /* background-color: #00a50b;
-    border: 5px solid #005711; */
-    background-color: rgba(200, 200, 200, 0.5);
-    backdrop-filter: blur(5px);
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px black, 0px 0px 10px black;
-}
-
 .index-intro {
     text-align: center;
 }
 
+div.semitransparent-box {
+    background-color: rgba(200, 200, 200, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 10px black, 0px 0px 10px black;
+}
 div.semitransparent-box h1 {
     color: black;
     font-weight: bold;
-    font-size: 35px;
     text-align: center;
-    margin-bottom: 10px;
 }
 div.semitransparent-box p {
-    font-size: 20px;
     font-weight: bold;
     color: black;
 }
+
 div.menu-header{
     background-color: #d3d3d3;
+    text-align: center;
+    border-bottom: 1vw solid #d3d3d3;
 }
 
 /* Form Styling */
@@ -191,6 +184,7 @@ div.menu-header{
 .contact-page-form {
     text-align: center;
 }
+
 .contact-page-form-grid {
     margin-top: 1.5%;
     padding: 2%;
@@ -202,15 +196,19 @@ fieldset, input, select {
     margin-bottom: 2%;
 }
 
+#instagram-design {
+    display: block;
+}
+
 .fieldset-styling {
     text-align: left;
 }
 
-fieldset legend {
+/* fieldset legend {
     font-weight: bold;
     font-size: 1.25em;
     text-shadow: 1px 1px;
-}
+} */
 
 .input-label-design {
     display: block;
@@ -230,19 +228,85 @@ fieldset legend {
    margin-bottom: 15px;
 }
 
-
-
-@media screen and (min-width: 551px) {
+/* Desktop Viewport */
+@media screen and (min-width: 601px) {
     .mobile {
         display: none;
     }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .normal-width {
+        width: 70vw;
+    }
+
+    .small-width {
+        width: 60vw;
+    }
+
+    div.semitransparent-box {
+        margin: 40px auto;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    div.semitransparent-box h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    div.semitransparent-box p {
+        font-size: 20px;
+    }
+
+    #instagram-design img {
+        width: 4%;
+        height: 1%;
+    }
 }
 
-@media screen and (max-width: 550px) {
+/* Mobile Viewport */
+@media screen and (max-width: 600px) {
     .desktop {
         display: none;
     }
 
+    h1 {
+        font-size: 1em;
+    }
+
+    .normal-width {
+        width: 90vw;
+    }
+
+    .small-width {
+        width: 70vw;
+    }
+
+    div.semitransparent-box {
+        margin: 10px auto;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    div.semitransparent-box h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    div.semitransparent-box p {
+        font-size: 16px;
+    }
+
+    div.mobile-quicknav a {
+        display: block;
+        border: 0.5vw solid #d3d3d3;
+        border-radius: 0;
+        background-color: #007B2F !important;
+    }
+
+    #instagram-design img {
+        width: 20%;
+        height: 20%;
+    }
 }
 
 /* Contact Page Styling */
@@ -298,6 +362,16 @@ fieldset legend {
     backdrop-filter: brightness(70%);
     border-radius: 20px;
     box-shadow: 5px 5px 10px black, 0px 0px 10px black;
+}
+
+ul.order-list {
+    margin: 0;
+    padding: 0;
+}
+ul.order-list li {
+    padding: 5px;
+    border-top: 2px solid rgba(50,50,50,0.6);
+    border-bottom: 2px solid rgba(50,50,50,0.6);
 }
 
 @keyframes focus-blink {
