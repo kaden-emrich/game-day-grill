@@ -200,11 +200,6 @@ fieldset, input, select {
     display: block;
 }
 
-#instagram-design img {
-    width: 4%;
-    height: 1%;
-    
-}
 .fieldset-styling {
     text-align: left;
 }
@@ -263,6 +258,11 @@ fieldset, input, select {
     div.semitransparent-box p {
         font-size: 20px;
     }
+
+    #instagram-design img {
+        width: 4%;
+        height: 1%;
+    }
 }
 
 /* Mobile Viewport */
@@ -301,6 +301,11 @@ fieldset, input, select {
         border: 0.5vw solid #d3d3d3;
         border-radius: 0;
         background-color: #007B2F !important;
+    }
+
+    #instagram-design img {
+        width: 20%;
+        height: 20%;
     }
 }
 
