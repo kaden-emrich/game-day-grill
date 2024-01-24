@@ -15,10 +15,6 @@ body {
     min-height: 100vh;
 }
 
-h1 {
-    font-size: 2em;
-}
-
 hr {
     margin: 1rem auto;
     padding: 5px;
@@ -117,34 +113,25 @@ div.general-text-box p {
     margin-bottom: 20px;
 }
 
-div.semitransparent-box {
-    /* width: 70vw; */
-    margin: 40px auto;
-    padding: 50px;
-    /* background-color: #00a50b;
-    border: 5px solid #005711; */
-    background-color: rgba(200, 200, 200, 0.5);
-    backdrop-filter: blur(5px);
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px black, 0px 0px 10px black;
-}
-
 .index-intro {
     text-align: center;
 }
 
+div.semitransparent-box {
+    background-color: rgba(200, 200, 200, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 10px black, 0px 0px 10px black;
+}
 div.semitransparent-box h1 {
     color: black;
     font-weight: bold;
-    font-size: 35px;
     text-align: center;
-    margin-bottom: 10px;
 }
 div.semitransparent-box p {
-    font-size: 20px;
     font-weight: bold;
     color: black;
 }
+
 div.menu-header{
     background-color: #d3d3d3;
 }
@@ -187,17 +174,68 @@ div.menu-header{
     margin-bottom: 20px;
 }
 
-@media screen and (min-width: 551px) {
+/* Desktop Viewport */
+@media screen and (min-width: 601px) {
     .mobile {
         display: none;
     }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .normal-width {
+        width: 70vw;
+    }
+
+    .small-width {
+        width: 60vw;
+    }
+
+    div.semitransparent-box {
+        margin: 40px auto;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    div.semitransparent-box h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    div.semitransparent-box p {
+        font-size: 20px;
+    }
 }
 
-@media screen and (max-width: 550px) {
+/* Mobile Viewport */
+@media screen and (max-width: 600px) {
     .desktop {
         display: none;
     }
 
+    h1 {
+        font-size: 1em;
+    }
+
+    .normal-width {
+        width: 90vw;
+    }
+
+    .small-width {
+        width: 70vw;
+    }
+
+    div.semitransparent-box {
+        margin: 10px auto;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    div.semitransparent-box h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    div.semitransparent-box p {
+        font-size: 20px;
+    }
 }
 
 /* Contact Page Styling */
