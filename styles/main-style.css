@@ -25,6 +25,10 @@ hr {
     box-shadow: 0px 0px 5px black, 2px 2px 2px black;
 }
 
+a {
+    color: #333;
+}
+
 hr.thick-rule {
     padding: 10px;
     border-radius: 10px;
@@ -193,11 +197,11 @@ fieldset, input, select {
     text-align: left;
 }
 
-fieldset legend {
+/* fieldset legend {
     font-weight: bold;
     font-size: 1.25em;
     text-shadow: 1px 1px;
-}
+} */
 
 .input-label-design {
     display: block;
@@ -277,7 +281,7 @@ fieldset legend {
         margin-bottom: 10px;
     }
     div.semitransparent-box p {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -334,6 +338,16 @@ fieldset legend {
     backdrop-filter: brightness(70%);
     border-radius: 20px;
     box-shadow: 5px 5px 10px black, 0px 0px 10px black;
+}
+
+ul.order-list {
+    margin: 0;
+    padding: 0;
+}
+ul.order-list li {
+    padding: 5px;
+    border-top: 2px solid rgba(50,50,50,0.6);
+    border-bottom: 2px solid rgba(50,50,50,0.6);
 }
 
 @keyframes focus-blink {
