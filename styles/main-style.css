@@ -269,21 +269,19 @@ fieldset, input, select {
     }
 }
 
-/* Tablet Viewport */
-@media screen and (max-width: 768px) {
-    #label-design {
-        display: block;
-    }
-
-}
-
+/* Laptop Viewport*/
 @media screen and (max-width: 1550px) {
     #label-design {
         display: block;
     }
 }
-    
 
+/* Tablet Viewport */
+@media screen and (max-width: 768px) {
+    #label-design {
+        display: block;
+    }
+}
 
 /* Mobile Viewport */
 @media screen and (max-width: 600px) {
