@@ -263,7 +263,27 @@ fieldset, input, select {
         width: 4%;
         height: 1%;
     }
+
+    #label-design {
+        display: inline-flex;
+    }
 }
+
+/* Tablet Viewport */
+@media screen and (max-width: 768px) {
+    #label-design {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1550px) {
+    #label-design {
+        display: block;
+    }
+}
+    
+
 
 /* Mobile Viewport */
 @media screen and (max-width: 600px) {
