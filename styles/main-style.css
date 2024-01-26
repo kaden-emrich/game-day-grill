@@ -253,7 +253,7 @@ fieldset, input, select {
 
 #back-to-top {
     position: fixed;
-    z-index: 100;
+    z-index: 5;
     right: 0;
     bottom: -5px;
     margin-right: 20px;
@@ -451,6 +451,18 @@ ul.order-list li {
     padding: 5px;
     border-top: 2px solid rgba(50,50,50,0.6);
     border-bottom: 2px solid rgba(50,50,50,0.6);
+}
+
+#link-logo {
+    display: block;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    height: 40px;
+    margin: 10px;
+}
+#link-logo img {
+    height: 40px;
 }
 
 @keyframes back-to-top-drop {
