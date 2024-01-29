@@ -164,6 +164,10 @@ div.menu-header{
     border-radius: 20px;
     overflow: hidden;
 }
+.inner-rounded-box {
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 /* Form Styling */
 .hiring-form{
