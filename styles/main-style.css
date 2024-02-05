@@ -259,7 +259,7 @@ fieldset, input, select {
     position: fixed;
     z-index: 5;
     right: 0;
-    bottom: -5px;
+    bottom: -10px;
     margin-right: 20px;
     padding: 10px;
     padding-bottom: 15px;
@@ -271,9 +271,15 @@ fieldset, input, select {
     color: white;
     text-shadow: 2px 2px 5px black;
     font-weight: bold;
+    
+    transition: transform 0.1s;
 }
 #back-to-top:hover {
     bottom: 0px;
+}
+#back-to-top:active {
+    bottom: 0px;
+    transform: scale(50%, 200%);
 }
 
 /* Desktop Viewport */
