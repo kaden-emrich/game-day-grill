@@ -225,6 +225,10 @@ fieldset, input, select {
 
 #instagram-design {
     display: block;
+    transition: transform 0.3s;
+}
+#instagram-design:hover {
+    transform: scale(120%);
 }
 
 .fieldset-styling {
@@ -255,6 +259,9 @@ fieldset, input, select {
    margin-bottom: 15px;
 }
 
+.back-to-top-hidden {
+    transform: translate(0, 100%);
+}
 #back-to-top {
     position: fixed;
     z-index: 5;
@@ -272,14 +279,14 @@ fieldset, input, select {
     text-shadow: 2px 2px 5px black;
     font-weight: bold;
     
-    transition: transform 0.1s;
+    transition: transform 0.1s, bottom 0.2s;
 }
 #back-to-top:hover {
     bottom: 0px;
 }
 #back-to-top:active {
     bottom: 0px;
-    transform: scale(50%, 200%);
+    transform: scale(110%, 100%);
 }
 
 /* Desktop Viewport */
@@ -326,12 +333,37 @@ fieldset, input, select {
         margin-right: 80px;
         font-size: 20pt;
     }
+
+    div.mobile-quicknav a {
+        transition: transform 0.3s;
+    }
+    div.mobile-quicknav a:hover {
+        transform: scale(109%);
+    }
 }
 
 /* Laptop Viewport*/
 @media screen and (max-width: 1550px) {
     #label-design {
         display: block;
+    }
+}
+
+/* Menu buttons sizing */
+@media screen and (max-width: 900px) {
+    div.mobile-quicknav a {
+        display: block;
+        z-index: 10;
+        border: 0.3vh solid #d3d3d3;
+        border-radius: 0;
+        background-color: #006B1F !important;
+        transition: all 0.3s;
+    }
+    div.mobile-quicknav a:hover {
+        z-index: 11;
+        background-color: #005B0F !important;
+        transform: scale(105%);
+        box-shadow: 5px 5px 10px black;
     }
 }
 
@@ -371,13 +403,6 @@ fieldset, input, select {
     }
     div.semitransparent-box p {
         font-size: 16px;
-    }
-
-    div.mobile-quicknav a {
-        display: block;
-        border: 0.5vw solid #d3d3d3;
-        border-radius: 0;
-        background-color: #007B2F !important;
     }
 
     #instagram-design img {
@@ -470,9 +495,13 @@ ul.order-list li {
     right: 0;
     height: 40px;
     margin: 10px;
+    transition: transform 0.3s;
 }
 #link-logo img {
     height: 40px;
+}
+#link-logo:hover {
+    transform: rotate(-360deg) scale(130%);
 }
 
 @keyframes back-to-top-drop {

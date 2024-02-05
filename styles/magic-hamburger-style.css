@@ -11,6 +11,7 @@
     --nav-width: 300px;
     --nav-block-background: #007B2F;
     --nav-block-border: 2px solid #d3d3d3;
+    --nav-block-border-hidden: 2px solid #007B2F;
     --nav-block-hover-background: #990000;
 
     --nav-font-color: #d3d3d3;
@@ -48,11 +49,13 @@
 }
 #navlist-wrapper ul li a {
     display: block;
+    position: relative;
     box-sizing: border-box;
     width: 100%;
     /* padding: 10px; */
     padding-left: 10px;
     list-style-type: none;
+    border-top: var(--nav-block-border-hidden);
     border-bottom: var(--nav-block-border);
     font-size: 40px;
     background-color: var(--nav-block-background);
@@ -61,10 +64,14 @@
     text-shadow: 0 0 10px black;
     box-shadow: 0 2px 5px black;
     font-family: "OhioState";
+    transition: transform 0.4s, background-color 0.3s;
     /* text-align: center; */
 }
 #navlist-wrapper ul li a:hover {
+    border-top: var(--nav-block-border);
     background-color: #990000 !important;
+    transform: scale(102%, 101%) translate(2px, -1px);
+    z-index: 200;
 }
 
 #hamburger-wrapper {
@@ -82,7 +89,11 @@
     width: 40px;
     height: 40px;
     margin: 10px;
+    transition: transform 0.3s;
     /* border: 1px solid black; */
+}
+#magic-burger:hover {
+    transform: scale(120%);
 }
 #magic-burger .h-part {
     box-sizing: border-box;

@@ -14,7 +14,8 @@
         <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
         <link rel="shortcut icon" sizes="192x192" href="images/favicon/android-chrome-192x192.png">   
 
-        <script src="menu-parser.js" type="text/javascript"></script>
+        <script src="scripts/menu-parser.js" type="text/javascript" defer></script>
+        <script src="scripts/back-to-top-button.js" defer></script>
     </head>
     <body>
         <nav id="magic-hamburger-nav">
@@ -38,7 +39,7 @@
                 <a id="link-logo" href="index.html"><img src="images/Game Day Grill Logo.png"></a>
             </div>
 
-            <a href="#magic-hamburger-nav" id="back-to-top"><div>back to top</div></a>
+            <a href="#magic-hamburger-nav" id="back-to-top" class="back-to-top-hidden" role="button"><div>back to top</div></a>
         </nav>
 
         <div class="endzone">
