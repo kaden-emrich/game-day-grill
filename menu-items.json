@@ -1,0 +1,212 @@
+[
+    {
+        "id" : 0,
+        "name" : "Bucket of Chicken",
+        "description" : "Does something such as this need to be explained? Cal. 500",
+        "section" : "Appetizers",
+        "price" : 6.99
+    },
+    {
+        "id" : 1,
+        "name" : "Mozzarella Sticks",
+        "description" : "4 hand breaded Mozzarella sticks. Cal. 180",
+        "section" : "Appetizers",
+        "price" : 5.99
+    },
+    {
+        "id" : 2,
+        "name" : "Baby Tacos",
+        "description" : "3 mini servings of your favorite full sized dish. Cal. 360",
+        "section" : "Appetizers",
+        "price" : 7.99
+    },
+    {
+        "id" : 3,
+        "name" : "Starter Plate",
+        "description" : "Can't pick? Don't blame you! Take your pick at them all with partial servings of each appetizer. Cal 520",
+        "section" : "Appetizers",
+        "price" : 12.99
+    },
+    {
+        "id" : 4,
+        "name" : "Club Sandwich",
+        "description" : "A true staple. Lightly toasted white bread, sliced chicken breast, sliced turkey breast, fried bacon, lettuce, tomato, and GDG mayo. Cal. 700",
+        "section" : "Sandwiches",
+        "price" : 13.99
+    },
+    {
+        "id" : 5,
+        "name" : "Grilled Cheese",
+        "description" : "Your mom made it for you now we will too. Grilled white bread, your choice of cheese(pepper jack, chedder, American and colby jack). Cal. 500",
+        "section" : "Sandwiches",
+        "price" : 13.50
+    },
+    {
+        "id" : 6,
+        "name" : "Controversial Sandwich",
+        "description" : "Plain and simple. Hot dogs are sandwiches, try ours on a side-loading bun or a Patriots-style. Cal. 650",
+        "section" : "Sandwiches",
+        "price" : 10.99
+    },
+    {
+        "id" : 7,
+        "name" : "Healthy Option",
+        "description" : "Tossed to perfection. An iceberg lettuce based salad with carrots, tomatoes, raddish, sprinkled with cheese and dressed with your choice. Cal. 750",
+        "section" : "Salads",
+        "price" : 11.99
+    },
+    {
+        "id" : 8,
+        "name" : "Big As Burger",
+        "description" : "Large and in Charge. 2 angus beef patties on a brioche bun. Topped with lettuce, tomato, onion ring, bacon and chedder cheese. Cal 1200",
+        "section" : "Burgers",
+        "price" : 16.99
+    },
+    {
+        "id" : 9,
+        "name" : "Football",
+        "description" : "A single angus beef patty served on a pretzel bun. Topped with lettuce, tomato, and chedder cheese. Cal 950",
+        "section" : "Burgers",
+        "price" : 14.99
+    },
+    {
+        "id" : 10,
+        "name" : "Steriod Burger",
+        "description" : "You'll need steroids to finish this. 3 large angus beef patties on a sesame seed bun topped with lettuce, tomato, onion ring, bacon, chedder cheese and GDG barbacue sauce. Cal 1700.",
+        "section" : "Burgers",
+        "price" : 18.99
+    },
+    {
+        "id" : 11,
+        "name" : "Chicken Tenders",
+        "description" : "3 Small chicken tenders with your choice of side Cal. 450",
+        "section" : "Kids",
+        "price" : 6.99
+    },
+    {
+        "id" : 12,
+        "name" : "Sliders",
+        "description" : "3 small burger sliders with your choice of side Cal. 600",
+        "section" : "Kids",
+        "price" : 8.99
+    },
+    {
+        "id" : 13,
+        "name" : "Mac and Cheese",
+        "description" : "A small bowl of mac and cheese Cal. 375",
+        "section" : "Kids",
+        "price" : 5.99
+    },
+    {
+        "id" : 14,
+        "name" : "Fries",
+        "description" : "Cal. 250",
+        "section" : "Sides",
+        "price" : 2.50
+    },
+    {
+        "id" : 15,
+        "name" : "Mac and Cheese",
+        "description" : "Cal. 275",
+        "section" : "Sides",
+        "price" : 2.99
+    },
+    {
+        "id" : 16,
+        "name" : "Mashed Potatoes",
+        "description" : "Cal. 200",
+        "section" : "Sides",
+        "price" : 3.50
+    },
+    {
+        "id" : 17,
+        "name" : "Diabetes Delight",
+        "description" : "A double chocolate brownie alamode topped with carmel and chocolate sauce. Cal. 850",
+        "section" : "Desserts",
+        "price" : 7.99
+    },
+    {
+        "id" : 18,
+        "name" : "Giants Cheesecake",
+        "description" : "A slice New York Style Cheesecake. Simple yet delicious. Add strawberry sauce drizzle.(+$0.99) Cal. 450-500",
+        "section" : "Desserts",
+        "price" : 6.99
+    },
+    {
+        "id" : 19,
+        "name" : "Ice Cream not a Sandwich",
+        "description" : "Two homemade cookies with creamy vanilla ice cream between. Its technically not a sandwich. Look it up. Cal. 780",
+        "section" : "Desserts",
+        "price" : 8.99
+    },
+    {
+        "id" : 20,
+        "name" : "Spoonful of Sugar",
+        "description" : "Add a cherry on top of your meal. A vanilla sundea topped with chocolate carmel and strawberry sauce. If you're looking to be healthy, you might as well eat a spoon full of sugar. Cal. A lot",
+        "section" : "Desserts",
+        "price" : 11.99
+    },
+    {
+        "id" : 21,
+        "name" : "Give me S'more",
+        "description" : "A taste of a crisp summer night. 2 grahm crackers, 2 marshmallows and chocolate",
+        "section" : "Desserts",
+        "price" : 8.99
+    },
+    {
+        "id" : 22,
+        "name" : "Boke",
+        "description" : "",
+        "section" : "Beverages",
+        "price" : 2.39
+    },
+    {
+        "id" : 23,
+        "name" : "Bepsi",
+        "description" : "",
+        "section" : "Beverages",
+        "price" : 2.39
+    },
+    {
+        "id" : 24,
+        "name" : "Boot Beer",
+        "description" : "",
+        "section" : "Beverages",
+        "price" : 2.39
+    },
+    {
+        "id" : 25,
+        "name" : "Bountain Bew",
+        "description" : "",
+        "section" : "Beverages",
+        "price" : 2.39
+    },
+    {
+        "id" : 26,
+        "name" : "Brite",
+        "description" : "",
+        "section" : "Beverages",
+        "price" : 2.39
+    },
+    {
+        "id" : 27,
+        "name" : "Bream Boda",
+        "description" : "",
+        "section" : "Beverages",
+        "price" : 2.39
+    },
+    {
+        "id" : 28,
+        "name" : "Biced Bea",
+        "description" : "",
+        "section" : "Beverages",
+        "price" : 1.99
+    },
+    {
+        "id" : 29,
+        "name" : "Water",
+        "description" : "",
+        "section" : "Beverages",
+        "price" : 1
+    }
+]
